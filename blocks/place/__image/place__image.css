@@ -1,0 +1,11 @@
+.place__image {
+  object-fit: cover;
+ width: 100%; 
+}
+
+@media screen and (max-width: 650px) {
+  .place__image {   
+    width: 320px;
+    transform: translate(-16px, 0);
+  }
+}
