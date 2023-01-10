@@ -1,15 +1,17 @@
 .header__lang-link {
-  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
-  margin-right: 18px;
+  text-decoration: none;
 }
 
-.header__lang-link:last-of-type {
-  margin-right: 0;
-  text-decoration: none;
+.header__lang-link:hover {
+  transition: 0.5s;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 321px) {

@@ -2,27 +2,26 @@
   padding: 92px 0 24px;
   margin: 0 auto;
   max-width: calc(1280px - 2*48px);
-  /*min-height: 134px;*/
   color: #FFFFFF;
   box-sizing: border-box;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1279px) {
   .footer {
     padding: 92px 48px 24px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .footer {
     padding: 88px 24px 24px;
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 767px) {
   .footer {
     padding: 64px 16px 24px;
     flex-direction: column;
