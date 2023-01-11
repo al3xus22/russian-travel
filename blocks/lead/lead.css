@@ -1,6 +1,6 @@
 .lead {
   max-width: calc(100% - 2*148px);
-  min-width: 320px;  
+  min-width: 320px;
   margin: 0 auto;
   color: #FFFFFF;
 }
